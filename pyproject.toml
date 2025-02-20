@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "audiotrim"
+version = "0.1.0"
+description = "A project for trimming audio files"
+authors = ["Clayton Bennett <george.bennett@memphistn.gov>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10.10"
+toml = "^0.10.2"
+audioread = "^2.1.9"
+soundfile = "^0.10.3"
+numpy = "^1.21.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
