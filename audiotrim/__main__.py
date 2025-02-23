@@ -2,7 +2,9 @@
 Author: Clayton Bennett
 Title: audiotrim.py
 Created: 2025 02-February 19
-Purpose: Audio Trimming
+
+Purpose: Audio trimming, and serve as a example template project with great rollout features.
+
 """
 # audiotrim/__main__.py
 
