@@ -11,6 +11,14 @@ def run_function():
     result = your_function(input_value)
     return jsonify({'result': result})
 
+@app.route('/')
+def home():
+    return "The Flask app is running!"
+    
+@app.route('/test_get', methods=['GET'])
+def test_get():
+    return "GET request successful!"
+
 def your_function(input_value):
     # Replace this with your actual function logic
     return f"Processed {input_value}"
