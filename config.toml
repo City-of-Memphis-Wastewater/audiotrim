@@ -1,5 +1,5 @@
 [audio]
-input_file="C:\\Users\\george.bennett\\Downloads\\A1.wav"
-output_file="C:\\Users\\george.bennett\\Downloads\\default_out.wav"
+input_file=".\\media\\in.wav"
+output_file=".\\media\\out.wav"
 start_time=0.0
 end_time=80.0 
